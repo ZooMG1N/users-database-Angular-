@@ -1,0 +1,18 @@
+.card-content {
+  height: 130px;
+}
+
+.card {
+  border: 2px solid black;
+}
+
+.hovered {
+  transform: scale(1.05);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  transition: 0.3s;
+}
+
+.checked {
+  transform: scale(0.9);
+  background-color: #aeaeae;
+}

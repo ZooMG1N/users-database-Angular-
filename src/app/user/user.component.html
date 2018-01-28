@@ -1,0 +1,16 @@
+<div class="col s12 m4 l3">
+  <div class="card" [ngClass]="{checked: isChecked}" appHover>
+    <div class="card-image">
+        <img src="{{user.avatar}}">
+        <span class="card-title">{{user.name | uppercase}}</span>
+    </div>
+    <div class="card-content">
+      <p>{{user.locationCity}}, {{user.locationState}}</p>
+      <p>{{user.locationStreet}}</p>
+    </div>
+    <div class="card-action">
+      <a (click)="checked()" class="waves-effect waves-light btn-large">Button</a>
+    </div>
+  </div>
+</div>
+
